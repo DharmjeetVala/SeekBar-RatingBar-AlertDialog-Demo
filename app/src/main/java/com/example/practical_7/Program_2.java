@@ -19,6 +19,7 @@ public class Program_2 extends AppCompatActivity {
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //Implement Rating Bar
                 String rating = "Rating : " + simpleRatingBar.getRating();
                 Toast.makeText(getApplicationContext(), rating + "/5",Toast.LENGTH_LONG).show();
             }
